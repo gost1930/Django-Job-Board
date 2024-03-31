@@ -1,9 +1,9 @@
 from django.urls import path ,include
-from . models import views
+from . import views
 
 urlpatterns = [
-    path('/',views.job_list),
-    path('detail=<int:id>',views.job_detail),
+    path('',views.job_list),
+    path('<int:id>',views.job_detail),
 
 
 ]
