@@ -1,4 +1,4 @@
-job:
+1-job:
    -title
    -location
    -job type
@@ -16,7 +16,7 @@ job:
 
 
 
-Blog:
+2-Blog:
     -title
     -Description
     -creacted_at
